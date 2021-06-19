@@ -4,8 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 18px;
   backdrop-filter: blur(10px);
   background-color: rgba(0, 153, 255, 0.03);
-  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 10px;
 }

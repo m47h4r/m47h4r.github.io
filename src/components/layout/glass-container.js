@@ -1,7 +1,11 @@
 import "./glass-container.css";
 
-function GlassContainer({ children }) {
-  return <div className="glass-container">{children}</div>;
+function GlassContainer({ children, ...props }) {
+  return (
+    <div className="glass-container" {...props}>
+      {children}
+    </div>
+  );
 }
 
 export { GlassContainer };
