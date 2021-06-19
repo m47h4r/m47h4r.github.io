@@ -1,7 +1,13 @@
+import { GlassContainer } from "./components/layout/glass-container";
+import { ImageBackground } from "./components/layout/image-background";
 
 function App() {
   return (
-    <div>Coming soon...</div>
+    <ImageBackground style={{ height: "100%" }}>
+      <GlassContainer>
+        <div>Coming soon...</div>
+      </GlassContainer>
+    </ImageBackground>
   );
 }
 

@@ -1,13 +1,46 @@
+@font-face {
+  font-family: Sarabun;
+  src: url("./assets/font/Sarabun-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Sarabun;
+  src: url("./assets/font/Sarabun-LightItalic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: Sarabun;
+  src: url("./assets/font/Sarabun-Regular.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Sarabun;
+  src: url("./assets/font/Sarabun-Italic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+html {
+  height: 100%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Sarabun", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+:root {
+  font-size: 18px;
+}
+#root {
+  height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
