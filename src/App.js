@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { GlassContainer } from "./components/layout/glass-container";
 import { ImageBackground } from "./components/layout/image-background";
 import { FlexMainContainer } from "./components/layout/flex-main-container";
@@ -9,11 +8,6 @@ import { About } from "./page/about";
 import { Home } from "./page/home";
 
 function App() {
-  // useEffect(() => {
-  //   setTimeout(() => {
-
-  //   }, 1000)
-  // }, [])
   return (
     <Router>
       <ImageBackground>
@@ -21,7 +15,7 @@ function App() {
           <GlassContainer>
             <NavigationSidebar />
           </GlassContainer>
-          <GlassContainer style={{ flexGrow: "1" }}>
+          <GlassContainer style={{ flexGrow: "1" }} isDense={true}>
             <Switch>
               <Route path="/blog">
                 <Diary />
