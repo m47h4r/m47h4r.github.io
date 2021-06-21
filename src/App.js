@@ -4,8 +4,9 @@ import { ImageBackground } from "./components/layout/image-background";
 import { FlexMainContainer } from "./components/layout/flex-main-container";
 import { NavigationSidebar } from "./components/navigation-sidebar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Blog } from "./page/blog";
+import { Diary } from "./page/diary";
 import { About } from "./page/about";
+import { Home } from "./page/home";
 
 function App() {
   // useEffect(() => {
@@ -23,10 +24,13 @@ function App() {
           <GlassContainer style={{ flexGrow: "1" }}>
             <Switch>
               <Route path="/blog">
-                <Blog />
+                <Diary />
               </Route>
               <Route path="/about">
                 <About />
+              </Route>
+              <Route path="/">
+                <Home />
               </Route>
             </Switch>
           </GlassContainer>
