@@ -1,0 +1,17 @@
+.quote {
+  max-width: 500px;
+  font-family: PetitFormalScript;
+  font-size: 1.1rem;
+}
+.quote__text {
+  line-height: 2rem;
+  text-align: justify;
+}
+.quote__author {
+  text-align: right;
+  margin: 0.5rem;
+}
+.quote__source {
+  text-align: right;
+  margin: 0.5rem;
+}
