@@ -1,9 +1,19 @@
+import { data } from "../data/diary";
+import { Link } from "../components/element/link";
+
 function Diary() {
   return (
-    <p>
-      I am Diary, I will contain articles that Maz wrote and want everyone to
-      see.
-    </p>
+    <>
+      <div className="diary">
+        {data.blog.map((entry) => (
+          <Link
+            text={entry.title}
+            to={"/diary/entry/" + entry.id}
+            key={entry.id}
+          />
+        ))}
+      </div>
+    </>
   );
 }
 export { Diary };

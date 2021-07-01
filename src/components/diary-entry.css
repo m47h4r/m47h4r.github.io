@@ -1,0 +1,9 @@
+.entry {
+  max-height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  padding: 0 4rem;
+}
+.entry-text {
+  max-width: 600px;
+}

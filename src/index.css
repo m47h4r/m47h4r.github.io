@@ -22,29 +22,16 @@
   font-weight: bold;
   font-style: italic;
 }
-@font-face {
-  font-family: PetitFormalScript;
-  src: url("./assets/font/PetitFormalScript-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
 
-html {
-  height: 100%;
-}
 body {
   margin: 0;
   font-family: "Sarabun", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
 }
 :root {
-  font-size: 18px;
+  font-size: 19px;
   --white: rgb(221, 221, 221);
-}
-#root {
-  height: 100%;
 }
 
 code {

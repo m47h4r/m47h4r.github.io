@@ -10,7 +10,7 @@ function NavigationSidebar() {
     <div className="navigation-sidebar">
       <Link to="/" text="Home" isActive={currentPath === "/"} />
       <FadedDividerLine />
-      <Link to="/blog" text="Diary" isActive={currentPath === "/blog"} />
+      <Link to="/diary" text="Diary" isActive={currentPath === "/diary"} />
       <FadedDividerLine />
       <Link to="/about" text="About" isActive={currentPath === "/about"} />
     </div>

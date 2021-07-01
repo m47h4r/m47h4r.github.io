@@ -5,8 +5,5 @@
   align-items: center;
   backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 10px;
-}
-.glass-container--dense {
-  backdrop-filter: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 0px 15px;
 }

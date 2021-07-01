@@ -1,12 +1,8 @@
 import "./glass-container.css";
 
-function GlassContainer({ children, isDense, ...props }) {
-  let className = isDense
-    ? "glass-container glass-container--dense"
-    : "glass-container";
-
+function GlassContainer({ children, ...props }) {
   return (
-    <div className={className} {...props}>
+    <div className="glass-container" {...props}>
       {children}
     </div>
   );

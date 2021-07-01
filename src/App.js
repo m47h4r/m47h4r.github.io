@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Diary } from "./page/diary";
 import { About } from "./page/about";
 import { Home } from "./page/home";
+import { DiaryEntry } from "./components/diary-entry";
 
 function App() {
   return (
@@ -15,9 +16,12 @@ function App() {
           <GlassContainer>
             <NavigationSidebar />
           </GlassContainer>
-          <GlassContainer style={{ flexGrow: "1" }} isDense={true}>
+          <GlassContainer style={{ flexGrow: "1" }}>
             <Switch>
-              <Route path="/blog">
+              <Route path="/diary/entry/:entry">
+                <DiaryEntry />
+              </Route>
+              <Route path="/diary">
                 <Diary />
               </Route>
               <Route path="/about">
